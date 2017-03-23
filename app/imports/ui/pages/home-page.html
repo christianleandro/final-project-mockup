@@ -1,13 +1,72 @@
 <template name="Home_Page">
-  <div class="ui middle aligned centered grid text container">
+  <div class="ui container">
 
-    <div class="four wide column">
-      <img class="ui small circular image" src="/images/meteor-logo.png"/>
+    <h1 class="ui centered header">Joined Clubs</h1>
+    <div class="ui four doubling stackable cards" style="padding-bottom: 20px;">
+      <div class="ui fluid card">
+        <div class="medium image">
+          <img src="/images/example-club-image-1.jpg">
+        </div>
+        <div class="content">
+          <a class="header">Example Club 1</a>
+          <div class="meta">
+            <span class="date">Club Expires June 2017</span>
+          </div>
+          <div class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut metus sit amet libero cursus lacinia eu ut libero. Nulla vulputate tortor ut sem finibus, eget convallis nisl blandit. Phasellus in tortor vitae lorem malesuada vestibulum. Cras semper sollicitudin dolor, quis gravida tortor congue ac.
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="ui tiny tag green labels">
+            <a class="ui label">Label 1</a>
+            <a class="ui label">Label 2</a>
+            <a class="ui label">Label 3</a>
+            <a class="ui label">Label 4</a>
+          </div>
+        </div>
+      </div>
+      <div class="ui fluid card">
+        <div class="medium image">
+          <img src="/images/example-club-image-2.jpg">
+        </div>
+        <div class="content">
+          <a class="header">Example Club 2</a>
+          <div class="meta">
+            <span class="date">Club Expires May 2017</span>
+          </div>
+          <div class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam magna leo, tincidunt eu fermentum sit amet, suscipit quis nisl. Nulla ut purus quis elit pharetra consectetur id ac massa. Suspendisse porttitor aliquet mi, sed molestie tellus vehicula sed. Vivamus tempor posuere condimentum. Aliquam bibendum, orci in bibendum accumsan, sapien purus ornare mi, eu pellentesque magna est ut massa.
+          </div>
+        </div>
+        <div class="extra content">
+          <div class="ui tiny tag green labels">
+            <a class="ui label">Label 1</a>
+            <a class="ui label">Label 2</a>
+            <a class="ui label">Label 3</a>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="eight wide column">
-      <h1>Welcome to this template</h1>
-      <p>Now get to work and modify this app!</p>
+    <hr/>
+
+    <h1 class="ui centered header">Upcoming Events</h1>
+    <div class="ui one column grid">
+      <div class="column">
+        <div class="ui fluid card">
+          <div class="content">
+            <a><h1 class="ui centered header">Example Club 1</h1></a>
+            <h3 class="ui centered header">Club Event 1</h3>
+            <div class="meta" align="center">
+              <p>Date: January 1, 2017</p>
+              <p>Location: UH Manoa Student Center</p>
+            </div>
+            <div class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra diam tellus, eu feugiat nisi aliquet ac. Fusce dignissim sit amet mi non tincidunt. Morbi ultrices pulvinar enim id rhoncus. Maecenas sed purus dapibus, accumsan neque nec, semper odio. Mauris ut mi imperdiet, porttitor mi sit amet, mollis elit. Integer aliquam quam a imperdiet accumsan. Praesent augue turpis, gravida tempor congue a, viverra quis lectus.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>
