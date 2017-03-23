@@ -4,3 +4,9 @@ Mockup for a UH Manoa Club Hub made with Meteor. The Club Hub is a centralized, 
 ## Landing Page
 ![alt text](https://github.com/christianleandro/final-project-mockup/blob/master/doc/landing-page.png "Landing Page")
 Users who aren't logged in will be put on this page. If a user is logged in they will go straight to the home page.
+
+## Login Page
+![alt text](https://github.com/christianleandro/final-project-mockup/blob/master/doc/login-page.png "Login Page")
+
+## Home Page
+![alt text](https://github.com/christianleandro/final-project-mockup/blob/master/doc/home-page.png "Home Page")
