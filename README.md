@@ -10,3 +10,4 @@ Users who aren't logged in will be put on this page. If a user is logged in they
 
 ## Home Page
 ![alt text](https://github.com/christianleandro/final-project-mockup/blob/master/doc/home-page.png "Home Page")
+This is the home page for normal users. Users will be able to see the clubs they are currently a part of and any upcoming events for these clubs.
